@@ -1,5 +1,5 @@
 const yourDate = new Date("2025-12-19T00:00:00"); // Ngày bắt đầu kỷ niệm
-const music = ['ido', 'noinaycoanh', 'nguoiamphu']; // Danh sách nhạc
+const music = ['ido']; // Danh sách nhạc
 
 document.addEventListener('DOMContentLoaded', async function () {
     const rootTime = document.querySelector("time");
@@ -143,3 +143,4 @@ function urlBase64ToUint8Array(base64String) {
     }
     return outputArray;
 }
+

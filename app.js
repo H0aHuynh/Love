@@ -1,5 +1,5 @@
 const yourDate = new Date("2025-12-19T00:00:00"),
-music = ['noinaycoanh'];
+music = ['ido'];
 
 document.addEventListener('DOMContentLoaded', function(){
       var rootTime = document.querySelector("time");
@@ -22,5 +22,6 @@ document.addEventListener('DOMContentLoaded', function(){
             "beforeend",
             "<div id='mask'></div>"
       );
+
 
 }, false);
